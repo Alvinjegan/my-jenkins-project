@@ -1,0 +1,10 @@
+#!/bin/bash
+echo "=========================================="
+echo "Jenkins Build Script Executed Successfully"
+echo "=========================================="
+echo "Build Number: ${BUILD_NUMBER}"
+echo "Build Date: $(date)"
+echo "Workspace: ${WORKSPACE}"
+echo "=========================================="
+echo "Hello from Jenkins!"
+echo "Build completed successfully!"
